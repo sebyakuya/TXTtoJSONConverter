@@ -17,6 +17,7 @@ import org.json.JSONObject;
 
 public class TXTtoJSONConverter {
 	private SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy, hh:mm");
+	
 	private List<String> errors;
 	private JSONArray array;
 	
