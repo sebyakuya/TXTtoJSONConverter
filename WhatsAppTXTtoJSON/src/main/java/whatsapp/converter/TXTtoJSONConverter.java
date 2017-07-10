@@ -23,6 +23,7 @@ public class TXTtoJSONConverter {
 	
 	public TXTtoJSONConverter(){
 		TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
+		System.out.println();
 		errors = new ArrayList<String>();
 		array = new JSONArray();
 	}
