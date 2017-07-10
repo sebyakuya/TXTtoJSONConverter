@@ -9,6 +9,7 @@ import java.io.IOException;
 public class App {
 	public static void main(String[] args) {
 		TXTtoJSONConverter t = new TXTtoJSONConverter();
+		;
 		try {
 			t.convert(args);
 		} catch (IOException e) {
